@@ -9,3 +9,12 @@ console.log("Hello, World!")
 // have html and js communicate
 
 // write the organs of the function that we need to implement
+
+
+
+
+
+//download git bash
+//setup ssh key with github account (feel free to aks David for help on this one)
+//pull down repository from github'
+//start CODING! 
