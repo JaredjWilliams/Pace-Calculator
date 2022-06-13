@@ -3,28 +3,37 @@
 <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <script src="index.js"></script>
     <title>Range Input</title>
+    <script src="index.js"></script>
 </head>
 <body>
 <form>
     <h1>Pace Calculator</h1>
-    <section class="time field">
-        <label for="Time">Enter Time:</label>
-        <input type="number" name="Time" id="Time">
-    </section>
+      <section class="Minute field">
+        <label for="minutes">Enter Minutes:</label>
+        <input type="number" id="minutes">
+      </section>
     <hr>
-    <section class="distance field">
+      <section class="Seconds field">
+          <label for="Seconds">Enter Seconds:</label>
+          <input type="number" id="seconds">
+      </section>
+    <hr>
+      <section class="distance field">
         <label for="distance">Enter Distance:</label>
-        <input type="number" name="distance" id="distance">
-    </section>
+        <input type="number" id="distance">
+      </section>
     <hr>
-    <button onclick="print()">PRINT</button>
-    <section class="pace">
-
-    </section>
+      <button onclick="calculate()">Find Pace</button>
+    <hr>
+      <section class="pace">
+        <label for="pace">Pace:</label>
+        <input type="number" id="pace">
+         <!-- <p id="pace"></p> -->
+      </section>
 
 </form>
 </section>
 </body>
+
 </html>
